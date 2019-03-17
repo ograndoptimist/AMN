@@ -12,7 +12,7 @@ print(__doc__)
 
 class AdmiravelMundoNovo(object):
     def __init__(self):
-        self.reforco = 0
+        self.reforco = None
         self._checa_estado = False
         self._estado_texto = None
         self._estado_acao = None
